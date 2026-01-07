@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>截图结果 - 全页截图</title>
+  <link rel="stylesheet" href="css/capture.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-left">
+        <img src="images/icon48.png" alt="Logo" class="logo">
+        <h1 class="title" data-i18n="popupTitle">全页截图</h1>
+      </div>
+      <div class="header-right">
+        <button id="download-btn" class="btn btn-icon" title="下载图片" data-i18n="downloadImage">
+          <span>⬇</span>
+        </button>
+        <button id="download-pdf-btn" class="btn btn-icon" title="下载PDF" data-i18n="downloadPDF">
+          <span>📄</span>
+        </button>
+        <button id="edit-btn" class="btn btn-icon" title="编辑" data-i18n="editImage">
+          <span>✏</span>
+        </button>
+        <button id="delete-btn" class="btn btn-icon" title="删除" data-i18n="deleteImage">
+          <span>🗑</span>
+        </button>
+        <a href="options.html" class="btn btn-icon" title="选项" data-i18n="options">
+          <span>⚙</span>
+        </a>
+      </div>
+    </header>
+
+    <main class="main">
+      <div id="loading" class="loading">
+        <div class="spinner"></div>
+        <p data-i18n="capturing">正在加载截图...</p>
+      </div>
+
+      <div id="error" class="error" style="display: none;">
+        <p id="error-message"></p>
+        <button class="btn btn-secondary" id="close-error" data-i18n="close">关闭</button>
+      </div>
+
+      <div id="image-container" class="image-container" style="display: none;">
+        <img id="screenshot-image" alt="Screenshot">
+      </div>
+    </main>
+  </div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/capture.js"></script>
+</body>
+</html>
+
+

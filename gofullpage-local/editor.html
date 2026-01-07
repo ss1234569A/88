@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>编辑截图 - 全页截图</title>
+  <link rel="stylesheet" href="css/editor.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-left">
+        <img src="images/icon48.png" alt="Logo" class="logo">
+        <h1 class="title">编辑截图</h1>
+      </div>
+      <div class="header-right">
+        <button id="save-btn" class="btn btn-primary" data-i18n="save">保存</button>
+        <button id="cancel-btn" class="btn btn-secondary" data-i18n="cancel">取消</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="toolbar">
+        <button id="crop-btn" class="tool-btn" title="裁剪">✂️ 裁剪</button>
+        <button id="draw-btn" class="tool-btn" title="绘制">✏️ 绘制</button>
+        <button id="text-btn" class="tool-btn" title="文字">📝 文字</button>
+        <button id="arrow-btn" class="tool-btn" title="箭头">➡️ 箭头</button>
+        <button id="rect-btn" class="tool-btn" title="矩形">▭ 矩形</button>
+        <button id="undo-btn" class="tool-btn" title="撤销">↶ 撤销</button>
+        <button id="redo-btn" class="tool-btn" title="重做">↷ 重做</button>
+        <button id="clear-btn" class="tool-btn" title="清除">🗑️ 清除</button>
+      </div>
+
+      <div class="editor-area">
+        <canvas id="editor-canvas"></canvas>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/editor.js"></script>
+</body>
+</html>
+
+

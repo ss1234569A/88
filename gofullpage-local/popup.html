@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>全页截图</title>
+  <link rel="stylesheet" href="css/popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <div class="header">
+      <img src="images/icon48.png" alt="Logo" class="logo">
+      <h1 class="title" data-i18n="popupTitle">全页截图</h1>
+    </div>
+    
+    <div class="content">
+      <div id="status" class="status"></div>
+      
+      <div id="main-view" class="main-view">
+        <button id="capture-btn" class="btn btn-primary" data-i18n="captureButton">
+          开始截图
+        </button>
+        
+        <div class="links">
+          <a href="#" id="options-link" data-i18n="options">选项</a>
+          <a href="#" id="history-link" data-i18n="history">历史记录</a>
+        </div>
+      </div>
+      
+      <div id="capturing-view" class="capturing-view" style="display: none;">
+        <div class="spinner"></div>
+        <p data-i18n="capturing">正在截图...</p>
+      </div>
+      
+      <div id="error-view" class="error-view" style="display: none;">
+        <p class="error-message" id="error-message"></p>
+        <button class="btn btn-secondary" id="close-error" data-i18n="close">关闭</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="js/i18n.js"></script>
+  <script src="js/popup.js"></script>
+</body>
+</html>
+
+

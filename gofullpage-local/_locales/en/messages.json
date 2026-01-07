@@ -1,0 +1,108 @@
+{
+  "appName": {
+    "message": "Full Page Screenshot - Local",
+    "description": "Extension name"
+  },
+  "appDesc": {
+    "message": "Capture full page screenshots, completely local processing, no network required",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Full Page Screenshot",
+    "description": "Popup title"
+  },
+  "captureButton": {
+    "message": "Capture Page",
+    "description": "Capture button"
+  },
+  "capturing": {
+    "message": "Capturing...",
+    "description": "Capturing in progress"
+  },
+  "captureComplete": {
+    "message": "Capture Complete",
+    "description": "Capture complete"
+  },
+  "captureError": {
+    "message": "Capture Failed",
+    "description": "Capture error"
+  },
+  "downloadImage": {
+    "message": "Download Image",
+    "description": "Download image"
+  },
+  "downloadPDF": {
+    "message": "Download PDF",
+    "description": "Download PDF"
+  },
+  "editImage": {
+    "message": "Edit",
+    "description": "Edit image"
+  },
+  "deleteImage": {
+    "message": "Delete",
+    "description": "Delete image"
+  },
+  "options": {
+    "message": "Options",
+    "description": "Options"
+  },
+  "history": {
+    "message": "History",
+    "description": "History"
+  },
+  "autoDownload": {
+    "message": "Auto Download",
+    "description": "Auto download"
+  },
+  "imageFormat": {
+    "message": "Image Format",
+    "description": "Image format"
+  },
+  "formatPNG": {
+    "message": "PNG",
+    "description": "PNG format"
+  },
+  "formatJPEG": {
+    "message": "JPEG",
+    "description": "JPEG format"
+  },
+  "formatWebP": {
+    "message": "WebP",
+    "description": "WebP format"
+  },
+  "imageQuality": {
+    "message": "Image Quality",
+    "description": "Image quality"
+  },
+  "invalidPage": {
+    "message": "Cannot use extension on this page. Please try on another webpage.",
+    "description": "Invalid page message"
+  },
+  "errorOccurred": {
+    "message": "An error occurred",
+    "description": "Error message"
+  },
+  "close": {
+    "message": "Close",
+    "description": "Close"
+  },
+  "ok": {
+    "message": "OK",
+    "description": "OK"
+  },
+  "cancel": {
+    "message": "Cancel",
+    "description": "Cancel"
+  },
+  "save": {
+    "message": "Save",
+    "description": "Save"
+  },
+  "reset": {
+    "message": "Reset",
+    "description": "Reset"
+  }
+}
+
+
